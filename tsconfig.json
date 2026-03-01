@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist/",
+        "noImplicitAny": true,
+        "target": "ES2020",
+        "module": "ESNext",
+        "lib": ["ES2020", "DOM"],
+        "jsx": "preserve",
+        "allowJs": true,
+        "moduleResolution": "node",
+        // https://stackoverflow.com/a/70265127
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true
+    },
+    "include": ["src", "vite-env.d.ts"],
+    "exclude": ["node_modules"],
+}
